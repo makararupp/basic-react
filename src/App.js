@@ -4,9 +4,10 @@ import Footer from './components/Footer';
 import Content from './components/Content';
 
 function App() {
+   
    return (
      <>
-        <Navbar title="Home" path="/home"/>
+        <Navbar/>
         <Content/>
         <Footer/>
      </>
@@ -14,4 +15,3 @@ function App() {
 } 
 
 export default App;
-

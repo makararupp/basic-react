@@ -1,8 +1,15 @@
 import React from 'react'
 
 const Content = () => {
+  //create function outbouand return type
+  const Message = (message) =>{
+    alert(message);
+  }
+
   return (
-    <div>Content</div>
+     <>
+      <button onClick={() =>Message("Camboida")}>Click Me</button>
+     </>
   )
 }
 
