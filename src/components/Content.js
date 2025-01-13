@@ -1,4 +1,5 @@
 import React from 'react'
+import Category from './Category';
 
 const Content = () => {
   //create function outbouand return type
@@ -9,6 +10,7 @@ const Content = () => {
   return (
      <>
       <button onClick={() =>Message("Camboida")}>Click Me</button>
+      <Category/>
      </>
   )
 }
