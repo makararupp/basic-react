@@ -2,6 +2,7 @@ import React from 'react'
 import Category from './Category';
 import Increment from './Increment';
 import Form from './Form';
+import Timer from './Timer';
 
 const Content = () => {
   //create function outbouand return type
@@ -15,6 +16,7 @@ const Content = () => {
       <Category/>
       <Increment/>
       <Form/>
+     <Timer/>
      </>
   )
 }

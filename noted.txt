@@ -1,0 +1,21 @@
+Syntax :
+useEffect(<function>, <dependency>)
+
+No dependency passed
+    useEffect(() =>{
+        //Run on evey render
+    });
+
+An empty array
+    useEffect(() => {
+        //Run only on the first render
+    }, []);
+
+Props or state value
+
+    useEffect(() =>{
+        //Run on the first render
+        // and any time any dependency value change
+    },[prop, state]);
+
+
