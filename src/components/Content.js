@@ -3,6 +3,7 @@ import Category from './Category';
 import Increment from './Increment';
 import Form from './Form';
 import Timer from './Timer';
+import Counter from './Counter';
 
 const Content = () => {
   //create function outbouand return type
@@ -17,6 +18,7 @@ const Content = () => {
       <Increment/>
       <Form/>
      <Timer/>
+     <Counter/>
      </>
   )
 }
